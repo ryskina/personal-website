@@ -39,10 +39,11 @@ let transTheme = () => {
 
 let initTheme = (theme) => {
   if (theme == null) {
-    const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
-    }
+      theme = 'light';
+//    const userPref = window.matchMedia;
+//    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
+//        theme = 'dark';
+//    }
   }
   setTheme(theme);
 }
