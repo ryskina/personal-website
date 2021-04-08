@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <code>/məˈɹiə ɹɪsˈkinə/ or /mɐˈrʲijə ˈrɨskʲɪnə/</code>
+description: /məˈɹiə ɹɪsˈkinə/ or /mɐˈrʲijə ˈrɨskʲɪnə/
 
 profile:
   align: right
