@@ -1,72 +1,95 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@inproceedings{ravichander-etal-2021-noiseqa,
+    abbr={EACL},
+    title = "NoiseQA: Challenge Set Evaluation for User-Centric Question Answering",
+    author = "Ravichander, Abhilasha and
+            Dalmia, Siddharth and
+            Ryskina, Maria and
+            Metze, Florian and
+            Hovy, Eduard and
+            Black, Alan W",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = apr,
+    year = "2021",
+    publisher = "Association for Computational Linguistics",
+    abstract = "When Question-Answering (QA) systems are deployed in the real world, users query them through a variety of interfaces, such as speaking to voice assistants, typing questions into a search engine, or even translating questions to languages supported by the QA system. While there has been significant community attention devoted to identifying correct answers in passages assuming a perfectly formed question, we show that components in the pipeline that precede an answering engine can introduce varied and considerable sources of error, and performance can degrade substantially based on these upstream noise sources even for powerful pre-trained QA models. We conclude that there is substantial room for progress before QA systems can be effectively deployed, highlight the need for QA evaluation to expand to consider real-world use, and hope that our findings will spur greater community interest in the issues that arise when our systems actually need to be of utility to humans.",
+    arxiv = "2102.08345",
+    website={https://noiseqa.github.io/},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{ryskina-etal-2020-phonetic,
+    abbr={ACL},
+    title = "Phonetic and Visual Priors for Decipherment of Informal {R}omanization",
+    author = "Ryskina, Maria  and
+      Gormley, Matthew R.  and
+      Berg-Kirkpatrick, Taylor",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.acl-main.737",
+    doi = "10.18653/v1/2020.acl-main.737",
+    pages = "8308--8319",
+    abstract = "Informal romanization is an idiosyncratic process used by humans in informal digital communication to encode non-Latin script languages into Latin character sets found on common keyboards. Character substitution choices differ between users but have been shown to be governed by the same main principles observed across a variety of languages{---}namely, character pairs are often associated through phonetic or visual similarity. We propose a noisy-channel WFST cascade model for deciphering the original non-Latin script from observed romanized text in an unsupervised fashion. We train our model directly on romanized data from two languages: Egyptian Arabic and Russian. We demonstrate that adding inductive bias through phonetic and visual priors on character mappings substantially improves the model{'}s performance on both languages, yielding results much closer to the supervised skyline. Finally, we introduce a new dataset of romanized Russian, collected from a Russian social network website and partially annotated for our experiments.",
+    arxiv={2005.02517},
+    slides={ryskina2020phonetic_slides.pdf},
+    code={https://github.com/ryskina/romanization-decipherment},
+    talk={https://slideslive.com/38929400/phonetic-and-visual-priors-for-decipherment-of-informal-romanization},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{ryskina-etal-2020-new,
+    abbr={SCiL},
+    title = "Where New Words Are Born: Distributional Semantic Analysis of Neologisms and Their Semantic Neighborhoods",
+    author = "Ryskina, Maria  and
+      Rabinovich, Ella  and
+      Berg-Kirkpatrick, Taylor  and
+      Mortensen, David  and
+      Tsvetkov, Yulia",
+    booktitle = "Proceedings of the Society for Computation in Linguistics",
+    month = jan,
+    year = "2020",
+    address = "New York, New York",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.scil-1.43",
+    pages = "367--376",
+    abstract = "We perform statistical analysis of the phenomenon of neology, the process by which new words emerge in a language, using large diachronic corpora of English. We investigate the importance of two factors, semantic sparsity and frequency growth rates of semantic neighbors, formalized in the distributional semantics paradigm. We show that both factors are predictive of word emergence although we find more support for the latter hypothesis. Besides presenting a new linguistic application of distributional semantics, this study tackles the linguistic question of the role of language-internal factors (in our case, sparsity) in language change motivated by language-external factors (reflected in frequency growth).",
+    arxiv={2001.07740},
+    poster={ryskina2020where_poster.pdf},
+    code={https://github.com/ryskina/neology},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{opera,
+  abbr={TAC},
+  title={OPERA: Operations-oriented Probabilistic Extraction, Reasoning, and Analysis},
+  author={Hovy, Eduard and others},
+  booktitle={Proceedings of the Text Analysis Conference},
+  year={2019},
+  abstract = "The OPERA system of CMU and USC/ISI performs end-to-end information
+extraction from multiple media and languages (English, Russian, Ukrainian),
+integrates the results, builds Knowledge Bases about the domain, and does
+hypothesis creation and reasoning to answer questions.",
+  pdf={https://tac.nist.gov/publications/2019/participant.papers/TAC2019.OPERA.proceedings.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{ryskina-etal-2017-automatic,
+    abbr={ACL},
+    title = "Automatic Compositor Attribution in the First Folio of Shakespeare",
+    author = "Ryskina, Maria  and
+      Alpert-Abrams, Hannah  and
+      Garrette, Dan  and
+      Berg-Kirkpatrick, Taylor",
+    booktitle = "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2017",
+    address = "Vancouver, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/P17-2065",
+    doi = "10.18653/v1/P17-2065",
+    pages = "411--416",
+    abstract = "Compositor attribution, the clustering of pages in a historical printed document by the individual who set the type, is a bibliographic task that relies on analysis of orthographic variation and inspection of visual details of the printed page. In this paper, we introduce a novel unsupervised model that jointly describes the textual and visual features needed to distinguish compositors. Applied to images of Shakespeare{'}s First Folio, our model predicts attributions that agree with the manual judgements of bibliographers with an accuracy of 87{\%}, even on text that is the output of OCR.",
+    arxiv={1704.07875},
+    poster={https://www.aclweb.org/anthology/attachments/P17-2065.Poster.pdf}
 }
