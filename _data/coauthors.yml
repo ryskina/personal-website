@@ -13,3 +13,35 @@ Ravichander:
     
 Dalmia:
     url: https://www.cs.cmu.edu/~sdalmia/
+    
+"Mortensen":
+  - firstname: ["David", "D.", "David R.", "D. R."]
+    url: https://www.cs.cmu.edu/~dmortens/
+    
+"Tsvetkov":
+  - firstname: ["Yulia", "Y."]
+    url: http://www.cs.cmu.edu/~ytsvetko/
+    
+"Black":
+  - firstname: ["Alan", "A.", "Alan W", "Alan W.", "A. W", "A. W."]
+    url: http://www.cs.cmu.edu/~awb/
+    
+"Rabinovich":
+  - firstname: ["Ella", "E."]
+    url: http://www.cs.toronto.edu/~ella/
+    
+"Alpert-Abrams":
+  - firstname: ["Hannah", "H."]
+    url: https://www.halperta.com/
+    
+"Garrette":
+  - firstname: ["Dan", "D."]
+    url: http://www.dhgarrette.com/
+    
+"Metze":
+  - firstname: ["Florian", "F."]
+    url: https://www.cs.cmu.edu/~fmetze/interACT/Home.html
+
+
+
+
