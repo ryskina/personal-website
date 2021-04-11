@@ -18,4 +18,4 @@ I am a PhD student at the [Language Technologies Institute](http://www.lti.cs.cm
 
 I work on machine learning models for computational linguistics, and I'm especially excited about idiosyncratic uses of language.
 
-I recieved my bachelor's and master's degrees from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/) and [Skoltech](http://www.skoltech.ru/en/). I've worked on my master's thesis at [MIT InfoLab](https://groups.csail.mit.edu/infolab/) and interned at [DiDi Labs](http://www.didi-labs.com/los-angeles/) with [Kevin Knight](https://kevincrawfordknight.github.io/).
+I recieved my bachelor's and master's degrees from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/) and [Skoltech](http://www.skoltech.ru/en/). I've worked on my master's thesis at [MIT InfoLab](https://groups.csail.mit.edu/infolab/) and interned at [DiDi Labs](https://www.didiglobal.com/science/ailabs) with [Kevin Knight](https://kevincrawfordknight.github.io/).
