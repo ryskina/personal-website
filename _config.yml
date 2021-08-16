@@ -68,9 +68,8 @@ stackoverflow_id: #your stackoverflow id
 rss_icon: true
 
 contact_note: >
-#    My legal name is Mariia Ryskina (Cyrillic: Мария Рыскина).
-#    In English I introduce as /məˈɹiːə ɹɪsˈkiːnə/. Russian pronunciation is /mɐˈrʲijɐ ˈrɨskʲɪnə/.
 #  You can even add a little note about which of these is the best way to reach you.
+semantic_scholar_id: Maria-Ryskina/1410648718
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
