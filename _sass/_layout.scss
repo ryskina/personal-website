@@ -22,6 +22,18 @@
   max-width: $max-content-width;
 }
 
+.card {
+   color: var(--global-text-color);
+   background-color: var(--global-bg-color);
+ }
+
+.list-group-item {
+   color: var(--global-text-color);
+   background-color: var(--global-bg-color);
+ }
+
+
+
 // Profile
 .profile {
   img {
