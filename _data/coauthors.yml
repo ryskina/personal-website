@@ -1,17 +1,21 @@
-
-Berg-Kirkpatrick:
+"Berg-Kirkpatrick":
+  - firstname: ["Taylor", "T."]
     url: http://cseweb.ucsd.edu/~tberg/
 
-Gormley:
+"Gormley":
+  - firstname: ["Matthew R.", "M. R."]
     url: http://www.cs.cmu.edu/~mgormley/
 
-Hovy:
+"Hovy":
+  - firstname: ["Eduard", "E."]
     url: http://www.cs.cmu.edu/~hovy/
-    
-Ravichander:
+
+"Ravichander":
+  - firstname: ["Abhilasha", "A."]
     url: https://www.cs.cmu.edu/~aravicha/
-    
-Dalmia:
+
+"Dalmia":
+  - firstname: ["Siddharth", "S."]
     url: https://www.cs.cmu.edu/~sdalmia/
     
 "Mortensen":

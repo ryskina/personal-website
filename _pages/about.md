@@ -11,7 +11,7 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a PhD student at the [Language Technologies Institute](http://www.lti.cs.cmu.edu/) of the [School of Computer Science](http://www.scs.cmu.edu/) at Carnegie Mellon University. I am fortunate to be advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Eduard Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://cseweb.ucsd.edu/~tberg/).
