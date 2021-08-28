@@ -37,6 +37,10 @@
               {% endif %}
             {% endfor %}
           {% endif %}
+          {% assign num_first_authors = 1 %}
+          {% if entry.firstauthors %}
+            {% assign num_first_authors = entry.firstauthors | plus:0 %}
+          {% endif %}
           
           {% if forloop.length == 1 %}
             {% if author_is_self %}
@@ -45,14 +49,51 @@
               {{author.first}} {{author.last}}
             {% endif %}
           {% else %}
-            {% unless forloop.last %}
-              {% if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>,
-              {% else %}
-                {% if coauthor_url %}
-                  <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,
+            {% if forloop.length > 10 and forloop.index == num_first_authors %}
+              {% if num_first_authors > 1 %}
+                {% if author_is_self %}
+                  <em>{{author.first}} {{author.last}}</em><span style="color:var(--global-theme-color)">*</span>
                 {% else %}
-                  {{author.first}} {{author.last}},
+                  {% if coauthor_url %}
+                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a><span style="color:var(--global-theme-color)">*</span>
+                  {% else %}
+                    {{author.first}} {{author.last}}<span style="color:var(--global-theme-color)">*</span>
+                  {% endif %}
+                {% endif %}
+              {% else %}
+                {% if author_is_self %}
+                  <em>{{author.first}} {{author.last}}</em>
+                {% else %}
+                  {% if coauthor_url %}
+                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                  {% else %}
+                    {{author.first}} {{author.last}}
+                  {% endif %}
+                {% endif %}
+              {% endif %}
+              et al.
+              {% break %}
+            {% endif %}
+            {% unless forloop.last %}
+              {% if num_first_authors > 1 and forloop.index <= num_first_authors %}
+                {% if author_is_self %}
+                  <em>{{author.first}} {{author.last}}</em><span style="color:var(--global-theme-color)">*</span>,
+                {% else %}
+                  {% if coauthor_url %}
+                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a><span style="color:var(--global-theme-color)">*</span>,
+                  {% else %}
+                    {{author.first}} {{author.last}}<span style="color:var(--global-theme-color)">*</span>,
+                  {% endif %}
+                {% endif %}
+              {% else %}
+                {% if author_is_self %}
+                  <em>{{author.first}} {{author.last}}</em>,
+                {% else %}
+                  {% if coauthor_url %}
+                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+                  {% else %}
+                    {{author.first}} {{author.last}},
+                  {% endif %}
                 {% endif %}
               {% endif %}
             {% else %}
