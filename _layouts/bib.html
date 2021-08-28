@@ -38,8 +38,8 @@
             {% endfor %}
           {% endif %}
           {% assign num_first_authors = 1 %}
-          {% if entry.firstauthors %}
-            {% assign num_first_authors = entry.firstauthors | plus:0 %}
+          {% if entry.equal_contribution %}
+            {% assign num_first_authors = entry.equal_contribution | plus:0 %}
           {% endif %}
           
           {% if forloop.length == 1 %}
