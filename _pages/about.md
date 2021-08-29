@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: /məˈɹiə ɹɪsˈkinə/ or /mɐˈrʲijə ˈrɨskʲɪnə/
+description: <a href="2021/08/28/name.html">[spelling and pronouncing my name]</a>
 
 profile:
   align: right
