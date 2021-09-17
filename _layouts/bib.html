@@ -86,13 +86,25 @@
                   {% endif %}
                 {% endif %}
               {% else %}
-                {% if author_is_self %}
-                  <em>{{author.first}} {{author.last}}</em>,
-                {% else %}
-                  {% if coauthor_url %}
-                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+                {% if forloop.length == 2 %}
+                  {% if author_is_self %}
+                    <em>{{author.first}} {{author.last}}</em>
                   {% else %}
-                    {{author.first}} {{author.last}},
+                    {% if coauthor_url %}
+                      <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                    {% else %}
+                      {{author.first}} {{author.last}}
+                    {% endif %}
+                  {% endif %}
+                {% else %}
+                  {% if author_is_self %}
+                    <em>{{author.first}} {{author.last}}</em>,
+                  {% else %}
+                    {% if coauthor_url %}
+                      <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+                    {% else %}
+                      {{author.first}} {{author.last}},
+                    {% endif %}
                   {% endif %}
                 {% endif %}
               {% endif %}
