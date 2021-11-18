@@ -16,7 +16,7 @@ nav: true
         <h6 class="card-subtitle font-italic">Fall 2018: TA & Guest Lecturer</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
-        <span class="badge badge-secondary">
+        <span class="badge" style="background-color:var(--global-theme-color); opacity:0.8"> 
           11-711
         </span>
       </div>
@@ -46,7 +46,7 @@ nav: true
         <h6 class="card-subtitle font-italic">Fall 2017: TA</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
-        <span class="badge badge-secondary">
+        <span class="badge" style="background-color:var(--global-theme-color); opacity:0.8">
           11-711
         </span>
       </div>
@@ -92,27 +92,53 @@ nav: true
   <ol class="bibliography">
   <li><div class="row">
   <div class="col-sm-8">
-      <div class="title">Informal romanization across languages and scripts</div>
+      <div class="title">Romanization with Friends: Deciphering Informally Romanized Text</div>
       <div class="periodical">    
-        <em>SIGTYP lecture series,</em> June 18 2021        
+        <em>NLP with Friends seminar series,</em> November 3, 2021        
       </div>
     <div class="links"> 
-      <a href="https://sigtyp.github.io/lectures.html#lecture-ryskina" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
-      <a href="/~mryskina/assets/pdf/Ryskina_SIGTYP_slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-      <a href="https://www.youtube.com/watch?v=ZCgbancq4zc&list=PLFIGad0NI4ovlwmNdHMVGnEVt3lnXUim6" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
-    </div>    
+      <a class="btn btn-sm z-depth-0 abstract" role="button">Abstract</a>
+      <a href="https://nlpwithfriends.com/speakers/maria-ryskina" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+      <a href="/~mryskina/assets/pdf/Ryskina-NLPWithFriends-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      <a href="https://youtu.be/fSEyOeTpv5c" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+    </div> 
+    <div class="abstract hidden">
+      <p>Informal romanization is an idiosyncratic way of typing non-Latin-script languages in Latin alphabet, common on social media and in other online communication. Although each user has their own character substitution preferences, these choices are typically grounded in shared perceptions of visual and phonetic similarity between characters. In this talk, I will focus on the task of converting such romanized text into its native orthography for Russian, Egyptian Arabic, and Kannada, showing how similarity-encoding inductive bias helps in the absence of parallel data. I’ll also share some insights into the behaviors of the unsupervised finite-state and seq2seq models for this task and discuss how their combinations can leverage their different strengths.</p>
+    </div>   
   </div>
   </div>
   </li>
   <li><div class="row">
   <div class="col-sm-8">
-      <div class="title">Unsupervised decipherment of informal romanization</div>
+      <div class="title">Unsupervised Decipherment of Informal Romanization</div>
       <div class="periodical">    
-        <em>NLPhD speaker series, Saarland University,</em> June 22 2021        
+        <em>NLPhD speaker series, Saarland University,</em> June 22, 2021        
+      </div>
+    <div class="links">
+      <a class="btn btn-sm z-depth-0 abstract" role="button">Abstract</a> 
+      <a href="/~mryskina/assets/pdf/Ryskina-NLPhD-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+    </div>
+    <div class="abstract hidden">
+      <p>Informal romanization is an idiosyncratic way of typing non-Latin-script languages in Latin alphabet, commonly used in online communication. Although the character substitution choices vary between users, they are typically grounded in shared notions of visual and phonetic similarity between characters. In this talk, I will focus on the task of converting such romanized text into its native orthography for Russian, Egyptian Arabic, and Kannada, showing how similarity-encoding inductive bias helps in the absence of parallel data. I'll also share some insights into the behaviors of the unsupervised finite-state and seq2seq models for this task and discuss how their combinations can leverage their different strengths.</p>
+    </div>     
+  </div>
+  </div>
+  </li>
+  <li><div class="row">
+  <div class="col-sm-8">
+      <div class="title">Informal Romanization across Languages and Scripts</div>
+      <div class="periodical">    
+        <em>SIGTYP lecture series,</em> June 18, 2021        
       </div>
     <div class="links"> 
-      <a href="/~mryskina/assets/pdf/Ryskina_NLPhD_slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
-    </div>    
+      <a class="btn btn-sm z-depth-0 abstract" role="button">Abstract</a>
+      <a href="https://sigtyp.github.io/lectures.html#lecture-ryskina" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
+      <a href="/~mryskina/assets/pdf/Ryskina-SIGTYP-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+      <a href="https://www.youtube.com/watch?v=ZCgbancq4zc&list=PLFIGad0NI4ovlwmNdHMVGnEVt3lnXUim6" class="btn btn-sm z-depth-0" role="button" target="_blank">Video</a>
+    </div> 
+    <div class="abstract hidden">
+      <p>Informal romanization is an idiosyncratic way of typing non-Latin-script languages in Latin alphabet, commonly used in online communication. Although the character substitution choices vary between users, they are typically grounded in shared notions of visual and phonetic similarity between characters. In this talk, I will focus on the task of converting such romanized text into its native orthography and present experimental results for Russian, Arabic, and Kannada, highlighting the differences specific to writing systems. I will also show how similarity-encoding inductive bias helps in the absence of parallel data, present comparative error analysis for unsupervised finite-state and seq2seq models for this task, and explore how the combinations of the two model classes can leverage their different strengths.</p>
+    </div>   
   </div>
   </div>
   </li>
