@@ -14,7 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a PhD student at the [Language Technologies Institute](http://www.lti.cs.cmu.edu/) of the [School of Computer Science](http://www.scs.cmu.edu/) at Carnegie Mellon University. I am fortunate to be advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Eduard Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://cseweb.ucsd.edu/~tberg/).
+I am a PhD candidate at the [Language Technologies Institute](http://www.lti.cs.cmu.edu/) of the [School of Computer Science](http://www.scs.cmu.edu/) at Carnegie Mellon University. I am fortunate to be advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Eduard Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://cseweb.ucsd.edu/~tberg/).
 
 I work on machine learning models for computational linguistics, and I'm especially excited about idiosyncratic uses of language and how they lead to larger-scale language change.
 
