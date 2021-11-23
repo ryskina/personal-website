@@ -55,7 +55,7 @@
                   <em>{{author.first}} {{author.last}}</em><span style="color:var(--global-theme-color)">*</span>
                 {% else %}
                   {% if coauthor_url %}
-                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a><span style="color:var(--global-theme-color)">*</span>
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><span style="color:var(--global-theme-color)">*</span>
                   {% else %}
                     {{author.first}} {{author.last}}<span style="color:var(--global-theme-color)">*</span>
                   {% endif %}
@@ -65,7 +65,7 @@
                   <em>{{author.first}} {{author.last}}</em>
                 {% else %}
                   {% if coauthor_url %}
-                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                   {% else %}
                     {{author.first}} {{author.last}}
                   {% endif %}
@@ -80,7 +80,7 @@
                   <em>{{author.first}} {{author.last}}</em><span style="color:var(--global-theme-color)">*</span>,
                 {% else %}
                   {% if coauthor_url %}
-                    <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a><span style="color:var(--global-theme-color)">*</span>,
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a><span style="color:var(--global-theme-color)">*</span>,
                   {% else %}
                     {{author.first}} {{author.last}}<span style="color:var(--global-theme-color)">*</span>,
                   {% endif %}
@@ -91,7 +91,7 @@
                     <em>{{author.first}} {{author.last}}</em>
                   {% else %}
                     {% if coauthor_url %}
-                      <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                     {% else %}
                       {{author.first}} {{author.last}}
                     {% endif %}
@@ -101,7 +101,7 @@
                     <em>{{author.first}} {{author.last}}</em>,
                   {% else %}
                     {% if coauthor_url %}
-                      <a href="{{coauthor_url}}" target="_blank">{{author.first}} {{author.last}}</a>,
+                      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,
                     {% else %}
                       {{author.first}} {{author.last}},
                     {% endif %}
@@ -172,16 +172,16 @@
       <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
     {% endif %}
     {% if entry.data %}
-      <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Data</a>
+      <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
     {% endif %}
     {% if entry.code_and_data %}
-      <a href="{{ entry.code_and_data }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code/Data</a>
+      <a href="{{ entry.code_and_data }}" class="btn btn-sm z-depth-0" role="button">Code/Data</a>
     {% endif %}
     {% if entry.data %}
-      <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Data</a>
+      <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
     {% endif %}
     {% if entry.code_and_data %}
-      <a href="{{ entry.code_and_data }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Code/Data</a>
+      <a href="{{ entry.code_and_data }}" class="btn btn-sm z-depth-0" role="button">Code/Data</a>
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
@@ -198,7 +198,7 @@
       {% endif %}
     {% endif %}
     {% if entry.talk %}
-      <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Talk</a>
+      <a href="{{ entry.talk }}" class="btn btn-sm z-depth-0" role="button">Talk</a>
     {% endif %}
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
