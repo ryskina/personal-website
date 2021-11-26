@@ -19,3 +19,5 @@ I am a PhD candidate at the [Language Technologies Institute](http://www.lti.cs.
 I work on machine learning models for computational linguistics, and I'm especially excited about idiosyncratic uses of language and how they lead to larger-scale language change.
 
 I recieved my bachelor's and master's degrees from the [Moscow Institute of Physics and Technology](https://mipt.ru/english/) and [Skoltech](http://www.skoltech.ru/en/). I've worked on my master's thesis at [MIT InfoLab](https://groups.csail.mit.edu/infolab/) and interned at [DiDi Labs](https://www.didiglobal.com/science/ailabs) with [Kevin Knight](https://kevincrawfordknight.github.io/).
+
+I am a member of [BergLab](https://icebergnlp.github.io/) and [LLab](https://llab-cmu.github.io/). I also sing with the [D♭ Singers](https://www.cmucsharp.com/).
