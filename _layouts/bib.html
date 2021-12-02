@@ -177,12 +177,6 @@
     {% if entry.code_and_data %}
       <a href="{{ entry.code_and_data }}" class="btn btn-sm z-depth-0" role="button">Code/Data</a>
     {% endif %}
-    {% if entry.data %}
-      <a href="{{ entry.data }}" class="btn btn-sm z-depth-0" role="button">Data</a>
-    {% endif %}
-    {% if entry.code_and_data %}
-      <a href="{{ entry.code_and_data }}" class="btn btn-sm z-depth-0" role="button">Code/Data</a>
-    {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}
       <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
