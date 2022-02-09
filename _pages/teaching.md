@@ -90,6 +90,22 @@ nav: true
 <div class="publications">
   <h3 style="margin-bottom:0.5cm;margin-top:1cm;">Invited talks</h3>
   <ol class="bibliography">
+    <li><div class="row">
+  <div class="col-sm-8">
+      <div class="title">Learning Computational Models of Non-Standard Language</div>
+      <div class="periodical">    
+        <em>MCQLL lab meeting, McGill University,</em> February 8, 2021        
+      </div>
+    <div class="links"> 
+      <a class="btn btn-sm z-depth-0 abstract" role="button">Abstract</a>
+      <a href="/~mryskina/assets/pdf/Ryskina-MCQLL-slides.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+    </div> 
+    <div class="abstract hidden">
+      <p>Non-standard linguistic items, such as novel words or creative spellings, are common in domains like social media and pose challenges for automatically processing text from these domains. To build models capable of processing such innovative items, we need to not only understand how humans reason about non-standard language, but also be able to operationalize this knowledge to create useful inductive biases. In this talk, I will present empirical studies of several phenomena under the umbrella of non-standard language, modeled at the levels of granularity ranging from individual users to entire dialects. First, I will show how idiosyncratic spelling preferences reveal information about the user, with an application to the bibliographic task of identifying typesetters of historical printed documents. Second, I will discuss the common patterns in user-specific orthographies and demonstrate that incorporating these patterns helps with unsupervised conversion of idiosyncratically romanized text into the native orthography of the language. In the final part of the talk, I will focus on word emergence in a dialect as a whole and present a diachronic corpus study modeling the language-internal and language-external factors that drive neology.</p>
+    </div>   
+  </div>
+  </div>
+  </li>
   <li><div class="row">
   <div class="col-sm-8">
       <div class="title">Romanization with Friends: Deciphering Informally Romanized Text</div>
