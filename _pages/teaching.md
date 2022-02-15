@@ -94,7 +94,7 @@ nav: true
   <div class="col-sm-8">
       <div class="title">Learning Computational Models of Non-Standard Language</div>
       <div class="periodical">    
-        <em>MCQLL lab meeting, McGill University,</em> February 8, 2021        
+        <em>MCQLL lab meeting, McGill University,</em> February 8, 2022        
       </div>
     <div class="links"> 
       <a class="btn btn-sm z-depth-0 abstract" role="button">Abstract</a>
