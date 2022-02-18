@@ -108,8 +108,14 @@ collections:
     output: true
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
+  talks:
+    output: true
+    permalink: /talks/:path/
+  classes:
+    output: true
+    permalink: /talks/:path/
 
 news_limit: 5
 

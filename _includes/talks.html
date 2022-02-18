@@ -1,0 +1,32 @@
+<div class="talks">
+  <h3>Invited talks</h3>  
+  <ol class="bibliography">
+    {% assign talks = site.talks | reverse %}
+    {% for item in talks %}
+      <li><div class="row">
+        <div class="col-sm-8">
+            <div class="title">{{ item.title }}</div>
+            <div class="venue">    
+              <em>{{ item.venue }},</em> {{ item.date | date: "%B %-d, %Y" }}        
+            </div>
+          <div class="links"> 
+            <a class="btn btn-sm z-depth-0 abstract" role="button">Abstract</a>
+            {% if item.website %}
+              <a href="{{ item.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+            {% endif %}
+            {% if item.slides %}
+              <a href="{{ item.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Slides</a>
+            {% endif %}
+            {% if item.video %}
+              <a href="{{ item.video }}" class="btn btn-sm z-depth-0" role="button">Video</a>
+            {% endif %}  
+          </div> 
+          <div class="abstract hidden">
+            <p>{{ item.content }}</p>
+          </div>   
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ol>
+</div>

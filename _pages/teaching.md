@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: teaching
 permalink: /teaching/
 title: teaching & talks
 description: teaching materials I created & invited talks
 nav: true
 ---
 
-### Carnegie Mellon University
+<!-- ### Carnegie Mellon University
 
 <div class="card class mt-3">
   <div class="p-3">
@@ -85,10 +85,10 @@ nav: true
     </ul>
     
   </div>
-</div>
+</div> -->
 
-<div class="publications">
-  <h3 style="margin-bottom:0.5cm;margin-top:1cm;">Invited talks</h3>
+<!-- <div class="talks">
+  <h3>Invited talks</h3>
   <ol class="bibliography">
     <li><div class="row">
   <div class="col-sm-8">
@@ -159,5 +159,5 @@ nav: true
   </div>
   </li>
 </ol>
-</div>
+</div> -->
 

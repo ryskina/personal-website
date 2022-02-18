@@ -14,10 +14,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-<!-- <span class=badge style="color: var(--global-theme-color) !important; height: 2rem; margin-bottom: 0.5rem; margin-top: 0.5rem;">
-  I am searching for postdoc positions! Please <a href="mailto:mryskina@cs.cmu.edu">email me</a> if you think I'd be a good fit for your lab.
-</span>  -->
-
 I am a PhD candidate at the [Language Technologies Institute](http://www.lti.cs.cmu.edu/) of the [School of Computer Science](http://www.scs.cmu.edu/) at Carnegie Mellon University. I am fortunate to be advised by [Matt Gormley](http://www.cs.cmu.edu/~mgormley/), [Eduard Hovy](http://www.cs.cmu.edu/~hovy/), and [Taylor Berg-Kirkpatrick](http://cseweb.ucsd.edu/~tberg/).
 
 My research takes an interdisciplinary approach to **natural language processing**, bringing together **machine learning** (latent variable models, finite-state models, unsupervised learning) and **computational linguistics** (morphology, linguistic typology, language change, psycholinguistics). I aim both to uncover new linguistic knowledge using computational methods and to leverage this knowledge to improve NLP applications.
