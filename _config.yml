@@ -105,17 +105,15 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
     output: false
     permalink: /projects/:path/
   talks:
-    output: true
-    permalink: /talks/:path/
+    output: false
   classes:
-    output: true
-    permalink: /talks/:path/
+    output: false
 
 news_limit: 5
 
