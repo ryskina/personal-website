@@ -7,7 +7,7 @@ description: <a href="2021/08/28/name.html">[spelling and pronouncing my name]</
 profile:
   align: right
   image: profile_pic.jpg
-  alt: Maria is standing in front of a window on a cloudy day, smiling at the camera and folding her arms. She is wearing a pink shirt and a blue blazer.
+  alt: Maria standing in front of a window on a cloudy day, smiling at the camera and folding her arms.
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"

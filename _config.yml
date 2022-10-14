@@ -7,7 +7,7 @@ first_name: Maria
 middle_name:
 last_name: Ryskina
 pronouns: she/they
-email: mryskina@cs.cmu.edu
+email: ryskina@mit.edu
 description: Maria Ryskina's personal webpage
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
