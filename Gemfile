@@ -10,7 +10,7 @@ group :jekyll_plugins do
     gem 'jekyll-responsive-image'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
-    gem 'jekyll-target-blank'
+    gem 'jekyll-target-blank', git: 'https://github.com/prplecake/jekyll-target-blank'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
